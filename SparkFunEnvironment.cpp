@@ -171,7 +171,7 @@ void environment::begin()
 	BMErunMode = 3; //Normal/Run
 	BMEtStandby = 0; //0.5ms
 	BMEfilter = 0; //Filter off
-	BMEtempOverSample = 1;
+	BMEtempOverSample = 16;
 	BMEpressOverSample = 1;
 	BMEhumidOverSample = 1;
     BMEtempCorrection = 0.0; // correction of temperature - added to the result
