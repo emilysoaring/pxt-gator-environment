@@ -30,7 +30,7 @@ Distributed as-is; no warranty is given.
 static MicroBitI2C i2c(I2C_SDA0, I2C_SCL0);
 
 //Register names:
-static const char BME280_ADDRESS			=		0xEE;
+static const char BME280_ADDRESS			=		0x76;
 static const char BME280_DIG_T1_LSB_REG		=	0x88;
 static const char BME280_DIG_T1_MSB_REG		=	0x89;
 static const char BME280_DIG_T2_LSB_REG		=	0x8A;
